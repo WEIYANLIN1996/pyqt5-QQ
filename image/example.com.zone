@@ -1,0 +1,35 @@
+$ttl 36000
+example.com.	IN	SOA	dns.example.com. admin.example.com. (
+			200509050  ; serial
+			10800      ; refresh (3 hours)
+			3600       ; retry (1 hour)
+			604800     ; expire (1 week)
+			36000      ; minimum (10 hours)
+                        ) 
+			
+example.com.	     IN	NS	dns.example.com.
+
+dns  		     IN	A	192.168.98.1
+www.example.com.     IN	A	192.168.98.1
+mail1.example.com.   IN	A	192.168.98.1
+mail2.example.com.   IN	A	192.168.98.1
+mail3.example.com.   IN	A	192.168.98.1
+
+rhel4	             IN	CNAME	dns
+bbs	             IN	CNAME	www
+samba		     IN	CNAME	www
+
+example.com.	     IN	MX	10 mail1.example.com.
+example.com.	     IN	MX	11 mail2.example.com.
+example.com.	     IN	MX	12 mail3.example.com.
+
+ftp  		     IN	A	192.168.98.1
+mail                 IN A       192.168.98.1
+mail2                IN A       192.168.98.1
+mail3                IN A       192.168.98.1
+
+
+example.com.         IN A       192.168.98.1
+
+*.example.com.       IN A       192.168.98.1
+www                  IN A       192.168.98.1

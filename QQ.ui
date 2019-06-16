@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>326</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>326</width>
+    <height>627</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>326</width>
+    <height>627</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>QQ</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>image/QQ1.jpg</normaloff>image/QQ1.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>331</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 85, 255);
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>70</width>
+       <height>65</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url(:/chatbk/image/qq.jpeg)</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>100</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 0);
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>欢迎:2097557613</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>294</x>
+       <y>0</y>
+       <width>31</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(0, 85, 255);</string>
+     </property>
+     <property name="text">
+      <string>关闭</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>0</y>
+       <width>31</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(0, 85, 255);</string>
+     </property>
+     <property name="text">
+      <string>隐藏</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>140</y>
+      <width>326</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>2</y>
+       <width>163</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 239, 239);</string>
+     </property>
+     <property name="text">
+      <string>好友</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/QQ1.jpg</normaloff>image/QQ1.jpg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>2</y>
+       <width>171</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 248, 248);</string>
+     </property>
+     <property name="text">
+      <string>群聊</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/wechat.png</normaloff>image/wechat.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>171</y>
+      <width>331</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string>tcp群</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/tcp.png</normaloff>image/tcp.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>同学群</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/classmate.jpg</normaloff>image/classmate.jpg</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学习资料群</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/learn.jpg</normaloff>image/learn.jpg</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>兼职群</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/partjob.png</normaloff>image/partjob.png</iconset>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>-3</x>
+      <y>171</y>
+      <width>331</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="autoScrollMargin">
+     <number>10</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="autoExpandDelay">
+     <number>-1</number>
+    </property>
+    <property name="indentation">
+     <number>6</number>
+    </property>
+    <property name="columnCount">
+     <number>1</number>
+    </property>
+    <column>
+     <property name="text">
+      <string>好友</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>朋友</string>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>perl</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/chatbk.jpg</normaloff>image/chatbk.jpg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>黄浩</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/qq.jpeg</normaloff>image/qq.jpeg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>小马</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/loginbk.jpg</normaloff>image/loginbk.jpg</iconset>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>家人</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>hacker</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/qqchat.jpg</normaloff>image/qqchat.jpg</iconset>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>同学</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>2097557613</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/qqchatbk.jpg</normaloff>image/qqchatbk.jpg</iconset>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>好友</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>小伟</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/qqlogin.jpg</normaloff>image/qqlogin.jpg</iconset>
+      </property>
+     </item>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="frist.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>310</x>
+     <y>10</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>342</x>
+     <y>57</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>listWidget</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>105</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>104</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>listWidget</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>157</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>213</x>
+     <y>284</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>155</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>58</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>212</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>176</x>
+     <y>360</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>17</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>347</x>
+     <y>96</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

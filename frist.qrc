@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="chatbk">
+    <file>image/loginicon.jpg</file>
+    <file>image/loginhide.jpg</file>
+    <file>image/logincolse.jpg</file>
+    <file>image/qqman2.jpg</file>
+    <file>image/qq.jpeg</file>
+    <file>image/qqchat.jpg</file>
+    <file>image/chatbk.jpg</file>
+    <file>image/QQicon.ico</file>
+    <file>image/qqchatbk.jpg</file>
+  </qresource>
+</RCC>
