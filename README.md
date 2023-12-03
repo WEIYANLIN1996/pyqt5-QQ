@@ -22,4 +22,6 @@
 >>聊天界面(可个人聊天、群聊)<br>
 ![image](https://github.com/WEIYANLIN1996/pyqt5-QQ/blob/master/introduction-img/图片22.jpg)
 *源码详解介绍<br>
->>最近没什么时间，有空更新，不懂可加qq：2097557613
+>>最近没什么时间，有空更新，有问题可+微信:yanlinAI01
+>>![17c07d85eaaab45a715d0c4d83332d4](https://github.com/WEIYANLIN1996/pyqt5-QQ/assets/44152810/54196f32-a433-4722-8acf-9ca5bb08a6cd)
+
